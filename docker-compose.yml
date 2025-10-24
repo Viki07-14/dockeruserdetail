@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  mywebsite:
+    build: .
+    container_name: my-details-container
+    ports:
+      - "8080:80"
